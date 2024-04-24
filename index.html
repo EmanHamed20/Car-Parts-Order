@@ -22,7 +22,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: auto;
+           min-height: 100vh; 
         }
         .form-radio{
             accent-color: rgba(255, 0, 0, 0.355);
@@ -31,35 +31,35 @@
         }
   </style>
     </head>
-  <body class="form-background">
+  <body class="form-background text-xl ">
     <header class="bg-black text-white px-2 flex items-center justify-between">
         <!-- Company Name -->
         <h1 class="text-xl font-bold py-2">Velocity Auto Supplies</h1>
         <!-- Logo -->
         <!-- <img src="https://i.pinimg.com/736x/b9/01/f6/b901f669e8319194f69236240677f6f9.jpg" alt="Company Logo" class="w-12 h-12 "> -->
     </header>
-      <div class="w-full  mx-auto py-8 px-4 rounded-lg shadow-lg ">
+      <div class="w-full  mx-auto py-8 px-4 rounded-lg shadow-lg text-2xl ">
 
         <!-- <h1 class="text-center">Welcome to company</h1> -->
           <form id="myForm" action="step2.html" class="w-2/4 mx-auto p-4  rounded shadow-md bg-transparent" method="post">
             <div class="mb-4" id="statusRadioGroup">
-                <label class="block text-gray-700 text-sm font-bold mb-2">Status:</label>
+                <label class="block text-gray-700text-lg font-bold mb-2">Status:</label>
             </div>
             
           <div class="mb-4 ">
-              <label for="carMaker" class="block text-gray-700 text-sm font-bold mb-2">Car Maker:</label>
+              <label for="carMaker" class="block text-gray-700text-lg font-bold mb-2">Car Maker:</label>
               <select id="carMaker" name="carMaker" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
                   <option value="" selected>Select Car Maker</option>
               </select>
           </div>
           <div class="mb-4">
-            <label for="carModel" class="block text-gray-700 text-sm font-bold mb-2">Car Model:</label>
+            <label for="carModel" class="block text-gray-700text-lg font-bold mb-2">Car Model:</label>
             <select id="carModel" name="carModel" class="border rounded w-full py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
                 <option value=""  selected>Select Car Model</option>
             </select>
         </div>
         <div class="mb-4">
-            <label for="carYear" class="block text-gray-700 text-sm font-bold mb-2">Car Year:</label>
+            <label for="carYear" class="block text-gray-700text-lg font-bold mb-2">Car Year:</label>
             <select id="carYear" name="carYear" class="border rounded w-full py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent ">
                 <option value="" selected>Select Car Year</option>
                 <!-- Add options dynamically via JavaScript -->

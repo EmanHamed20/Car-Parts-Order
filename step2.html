@@ -13,7 +13,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: auto;
+            min-height: 100vh;
         }
            .form-radio{
                accent-color: rgba(255, 0, 0, 0.355);
@@ -31,27 +31,27 @@
         <!-- <h1 class="text-2xl font-bold mb-4">Enter Part Details</h1> -->
         <form id="partForm" class="space-y-4 bg-transparent shadow-lg p-4">
             <div>
-                <label for="partName" class="block py-1 text-sm font-medium ">Part Name <span class="text-red-500">*</span></label>
+                <label for="partName" class="block py-1 text-lg font-medium ">Part Name <span class="text-red-500">*</span></label>
                 <input type="text" id="partName" name="partName" required class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent">
             </div>
             <div>
-                <label for="partQuantity" class="block py-1 text-sm font-medium ">Part Quantity <span class="text-red-500">*</span></label>
+                <label for="partQuantity" class="block py-1 text-lg font-medium ">Part Quantity <span class="text-red-500">*</span></label>
                 <input type="number" id="partQuantity" name="partQuantity" required class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
             </div>
             <div>
-                <label for="partSerialNumber" class="block py-1 text-sm font-medium ">Part Serial Number</label>
+                <label for="partSerialNumber" class="block py-1 text-lg font-medium ">Part Serial Number</label>
                 <input type="text" id="partSerialNumber" name="partSerialNumber" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
             </div>
             <div>
-                <label for="carFrameNumber" class="block py-1 text-sm font-medium ">Car Frame Number</label>
+                <label for="carFrameNumber" class="block py-1 text-lg font-medium ">Car Frame Number</label>
                 <input type="text" id="carFrameNumber" name="carFrameNumber" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
             </div>
             <div>
-                <label for="partDescription" class="block py-1 text-sm font-medium ">Part Description</label>
+                <label for="partDescription" class="block py-1 text-lg font-medium ">Part Description</label>
                 <textarea id="partDescription" name="partDescription" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent"></textarea>
             </div>
             <div>
-                <label for="partImage" class="block py-1 text-sm font-medium ">Part Image</label>
+                <label for="partImage" class="block py-1 text-lg font-medium ">Part Image</label>
                 <input type="file" id="partImage" name="partImage" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
             </div>
             <div style="display: flex; justify-content: flex-end;">

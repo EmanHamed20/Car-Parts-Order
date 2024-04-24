@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             span.className = 'ml-2';
             span.textContent = status;
             span.id = `statusLabel${index}`; // Append unique identifier
-            span.classList.add('text-red-700');
+            span.classList.add('text-red-700','px-3');
 
             label.appendChild(input);
             label.appendChild(span);
@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Display car image
                 const image = document.createElement('img');
                 image.src = carImage;
+                image.classList.add('w-full')
                 carImageContainer.innerHTML = '';
                 carImageContainer.appendChild(image);
                 nextStepButton.disabled = false;
