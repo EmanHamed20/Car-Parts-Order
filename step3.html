@@ -55,24 +55,24 @@
             <fieldset class="mb-4">
                 <!-- <legend class="text-lg font-semibold mb-2">Client Information</legend> -->
                 <div class="mb-4">
-                    <label for="clientName " class="block py-1">Client Name</label>
+                    <label for="clientName " class="block py-1 text-xl"> Name</label>
                     <input type="text" id="clientName" name="clientName" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent"  placeholder="Enter your name" required pattern="[A-Za-z]{3,}">
                     <span id="clientNameError" class="text-red-700 hidden">Please enter a valid name with minimum 3 characters.</span>
 
                 </div>
                 <div class="mb-4">
-                    <label for="email" class="block py-1">Email</label>
+                    <label for="email" class="block py-1 text-xl">Email</label>
                     <input type="email" id="email" name="email" placeholder="Enter your e-mail" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent" required pattern="[a-zA-Z][a-zA-Z]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
                     <span id="emailError" class="text-red-500 hidden">Please enter a valid email address.</span>
 
                 </div>
                 <div class="mb-4 ">
-                    <label for="telephone" class="block py-1 w-full ">Mobile Number</label>
+                    <label for="telephone" class="block py-1 w-full text-xl  ">Mobile Number</label>
                     <input type="tel" id="phone" name="phone" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent"  required>
                     <!-- Example pattern: +123-456-789012 -->
                 </div>
                 <div class="mb-4 relative">
-                    <label for="password" class="block py-1">Password</label>
+                    <label for="password" class="block py-1 text-xl">Password</label>
                     <div class="input-with-icon">
                         <input type="password" id="password" name="password" class="border rounded w-full py-2 px-3 text-red-700 leading-tight focus:outline-none bg-transparent" required placeholder="Enter password">
                         <span class="toggle-password px-2" onclick="togglePasswordVisibility('password', '.toggle-password i')">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="mb-4">
-                    <label for="confirmPassword" class="block py-1">Confirm Password</label>
+                    <label for="confirmPassword" class="block py-1 text-xl">Confirm Password</label>
                     <div class="input-with-icon">
                         <input type="password" id="confirmPassword" name="confirmPassword" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent" required placeholder="Confirm password">
                         <span class="toggle-confirm-password px-2" onclick="togglePasswordVisibility('confirmPassword', '.toggle-confirm-password i')">
@@ -93,8 +93,8 @@
                 
             </fieldset>
 
-            <div style="display: flex; justify-content: flex-end;">
-                <button type="submit" class="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mr-2">
+            <div style="display: flex; justify-content: flex-end; ">
+                <button type="submit" class="bg-red-700 hover:bg-red-600 text-white text-xl font-bold py-2 px-4 rounded mr-2">
                     Next <i class="fas fa-arrow-right ml-1"></i>
                 </button>
             </div>       

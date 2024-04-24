@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create a label element
             const label = document.createElement('label');
             label.textContent = key + ":";
-            label.classList.add('block','py-2','text-xl');
+            label.classList.add('block','py-2','text-xl','font-bold');
             
             // Create an input element
             const input = document.createElement('input');
             input.type = 'text';
             input.value = stepData[key];
             input.readOnly = true;
-            input.classList.add('form-input', 'w-full', 'border', 'rounded', 'py-2', 'px-3','bg-transparent','text-red-800');
+            input.classList.add('form-input', 'w-full', 'border', 'rounded', 'py-2', 'px-3','bg-transparent','text-red-800','text-xl');
             
             // Append label and input to the container div
             inputContainer.appendChild(label);
