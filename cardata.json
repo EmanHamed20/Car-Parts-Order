@@ -1,0 +1,236 @@
+
+{
+  "statuses":[
+    "Individual",
+    "Company"
+  ],
+    "carMakers": [
+      "Toyota",
+      "Honda",
+      "Ford",
+      "Chevrolet",
+      "BMW",
+      "Mercedes-Benz",
+      "Audi",
+      "Volkswagen",
+      "Nissan",
+      "Tesla",
+      "Hyundai",
+      "Kia",
+      "Subaru",
+      "Mazda",
+      "Volvo",
+      "Porsche",
+      "Lexus",
+      "Jeep",
+      "Land Rover",
+      "Ferrari",
+      "Maserati",
+      "Bentley",
+      "Rolls-Royce",
+      "Bugatti",
+      "Lamborghini",
+      "McLaren",
+      "Aston Martin",
+      "Lotus",
+      "Alfa Romeo",
+      "Genesis",
+      "Infiniti",
+      "Lincoln",
+      "Buick",
+      "Cadillac",
+      "Jaguar",
+      "Mini",
+      "Ram",
+      "GMC",
+      "Chrysler",
+      "Dodge",
+      "Mitsubishi",
+      "Smart",
+      "Suzuki",
+      "Acura",
+      "Fiat",
+      "Hummer",
+      "Pontiac",
+      "Saturn",
+      "Saab",
+      "Scion"
+    ],
+    "carModels": {
+      "Toyota": ["Camry", "Corolla", "Rav4", "Highlander"],
+      "Honda": ["Accord", "Civic", "CR-V", "Pilot"],
+      "Ford": ["F-150", "Escape", "Explorer", "Focus"],
+      "Chevrolet": ["Silverado", "Malibu", "Equinox", "Cruze"],
+      "BMW": ["3 Series", "5 Series", "X3", "X5"],
+      "Mercedes-Benz": ["C-Class", "E-Class", "GLC", "GLE"],
+      "Audi": ["A4", "A6", "Q5", "Q7"],
+      "Volkswagen": ["Jetta", "Passat", "Tiguan", "Atlas"],
+      "Nissan": ["Altima", "Sentra", "Rogue", "Pathfinder"],
+      "Tesla": ["Model S", "Model 3", "Model X", "Model Y"],
+      "Hyundai": ["Elantra", "Sonata", "Tucson", "Santa Fe"],
+      "Kia": ["Optima", "Sorento", "Sportage", "Telluride"],
+      "Subaru": ["Outback", "Forester", "Impreza", "Legacy"],
+      "Mazda": ["Mazda3", "Mazda6", "CX-5", "CX-9"],
+      "Volvo": ["S60", "S90", "XC40", "XC90"],
+      "Porsche": ["911", "Cayenne", "Macan", "Panamera"],
+      "Lexus": ["ES", "RX", "NX", "GX"],
+      "Jeep": ["Wrangler", "Cherokee", "Grand Cherokee", "Renegade"],
+      "Land Rover": ["Range Rover", "Discovery", "Defender", "Evoque"],
+      "Ferrari": ["488", "812 Superfast", "F8 Tributo", "Portofino"],
+      "Maserati": ["Ghibli", "Quattroporte", "Levante", "GranTurismo"],
+      "Bentley": ["Bentayga", "Continental GT", "Flying Spur", "Mulsanne"],
+      "Rolls-Royce": ["Phantom", "Ghost", "Wraith", "Cullinan"],
+      "Bugatti": ["Chiron", "Veyron", "EB110"],
+      "Lamborghini": ["Aventador", "Huracan", "Urus", "Gallardo"],
+      "McLaren": ["570S", "720S", "P1", "Senna"],
+      "Aston Martin": ["DB11", "Vantage", "DBS Superleggera", "DBX"],
+      "Lotus": ["Evora", "Exige", "Elise", "Evija"],
+      "Alfa Romeo": ["Giulia", "Stelvio", "4C", "8C"],
+      "Genesis": ["G70", "G80", "G90"],
+      "Infiniti": ["Q50", "QX50", "QX60", "QX80"],
+      "Lincoln": ["Navigator", "Aviator", "Corsair", "Continental"],
+      "Buick": ["Encore", "Enclave", "Regal", "LaCrosse"],
+      "Cadillac": ["Escalade", "XT5", "CT5", "ATS"],
+      "Jaguar": ["F-Type", "XE", "XF", "F-Pace"],
+      "Mini": ["Cooper", "Clubman", "Countryman", "Convertible"],
+      "Ram": ["1500", "2500", "3500", "Rebel"],
+      "GMC": ["Sierra", "Acadia", "Terrain", "Yukon"],
+      "Chrysler": ["300", "Pacifica", "Voyager"],
+      "Dodge": ["Challenger", "Charger", "Durango", "Journey"],
+      "Mitsubishi": ["Outlander", "Eclipse Cross", "Mirage", "Pajero"],
+      "Smart": ["Fortwo", "Forfour"],
+      "Suzuki": ["Swift", "Vitara", "Jimny"],
+      "Acura": ["TLX", "RDX", "MDX", "NSX"],
+      "Fiat": ["500", "500X", "500L", "124 Spider"],
+      "Hummer": ["H1", "H2", "H3"],
+      "Pontiac": ["GTO", "Firebird", "G6", "Grand Prix"],
+      "Saturn": ["Ion", "Vue", "Sky", "Outlook"],
+      "Saab": ["9-3", "9-5", "900", "9000"],
+      "Scion": ["xB", "xA", "tC", "iQ"]
+    },
+    "carYears": {
+      "Toyota": {
+        "Camry": ["2022", "2021", "2020"],
+        "Corolla": ["2022", "2021", "2020"],
+        "Rav4": ["2022", "2021", "2020"],
+        "Highlander": ["2022", "2021", "2020"]
+      },
+      "Honda": {
+        "Accord": ["2022", "2021", "2020"],
+        "Civic": ["2022", "2021", "2020"],
+        "CR-V": ["2022", "2021", "2020"],
+        "Pilot": ["2022", "2021", "2020"]
+      },
+      "Ford": {
+        "F-150": ["2022", "2021", "2020"],
+        "Escape": ["2022", "2021", "2020"],
+        "Explorer": ["2022", "2021", "2020"],
+        "Focus": ["2022", "2021", "2020"]
+      },
+      "Chevrolet": {
+        "Silverado": ["2022", "2021", "2020"],
+        "Malibu": ["2022", "2021", "2020"],
+        "Equinox": ["2022", "2021", "2020"],
+        "Cruze": ["2022", "2021", "2020"]
+      },
+      "BMW": {
+        "3 Series": ["2022", "2021", "2020"],
+        "5 Series": ["2022", "2021", "2020"],
+        "X3": ["2022", "2021", "2020"],
+        "X5": ["2022", "2021", "2020"]
+      },
+      "Mercedes-Benz": {
+        "C-Class": ["2022", "2021", "2020"],
+        "E-Class": ["2022", "2021", "2020"],
+        "GLC": ["2022", "2021", "2020"],
+        "GLE": ["2022", "2021", "2020"]
+      },
+      "Audi": {
+        "A4": ["2022", "2021", "2020"],
+        "A6": ["2022", "2021", "2020"],
+        "Q5": ["2022", "2021", "2020"],
+        "Q7": ["2022", "2021", "2020"]
+      },
+      "Volkswagen": {
+        "Jetta": ["2022", "2021", "2020"],
+        "Passat": ["2022", "2021", "2020"],
+        "Tiguan": ["2022", "2021", "2020"],
+        "Atlas": ["2022", "2021", "2020"]
+      },
+      "Nissan": {
+        "Altima": ["2022", "2021", "2020"],
+        "Sentra": ["2022", "2021", "2020"],
+        "Rogue": ["2022", "2021", "2020"],
+        "Pathfinder": ["2022", "2021", "2020"]
+      },
+      "Tesla": {
+        "Model S": ["2022", "2021", "2020"],
+        "Model 3": ["2022", "2021", "2020"],
+        "Model X": ["2022", "2021", "2020"],
+        "Model Y": ["2022", "2021", "2020"]
+      }
+    },
+    "carImages": {
+      "Toyota": {
+        "Camry": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoy2MtMuYJQXOkgiDirLXbyCXRoBimAl7pfRwRw5UCyg&s",
+        "Corolla": "https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1280.jpg",
+        "Rav4": "https://example.com/toyota_rav4.jpg",
+        "Highlander": "https://example.com/toyota_highlander.jpg"
+      },
+      "Honda": {
+        "Accord": "https://example.com/honda_accord.jpg",
+        "Civic": "https://example.com/honda_civic.jpg",
+        "CR-V": "https://example.com/honda_cr-v.jpg",
+        "Pilot": "https://example.com/honda_pilot.jpg"
+      },
+      "Ford": {
+        "F-150": "https://example.com/ford_f-150.jpg",
+        "Escape": "https://example.com/ford_escape.jpg",
+        "Explorer": "https://example.com/ford_explorer.jpg",
+        "Focus": "https://example.com/ford_focus.jpg"
+      },
+      "Chevrolet": {
+        "Silverado": "https://example.com/chevrolet_silverado.jpg",
+        "Malibu": "https://example.com/chevrolet_malibu.jpg",
+        "Equinox": "https://example.com/chevrolet_equinox.jpg",
+        "Cruze": "https://example.com/chevrolet_cruze.jpg"
+      },
+      "BMW": {
+        "3 Series": "https://example.com/bmw_3_series.jpg",
+        "5 Series": "https://example.com/bmw_5_series.jpg",
+        "X3": "https://example.com/bmw_x3.jpg",
+        "X5": "https://example.com/bmw_x5.jpg"
+      },
+      "Mercedes-Benz": {
+        "C-Class": "https://example.com/mercedes_c-class.jpg",
+        "E-Class": "https://example.com/mercedes_e-class.jpg",
+        "GLC": "https://example.com/mercedes_glc.jpg",
+        "GLE": "https://example.com/mercedes_gle.jpg"
+      },
+      "Audi": {
+        "A4": "https://example.com/audi_a4.jpg",
+        "A6": "https://example.com/audi_a6.jpg",
+        "Q5": "https://example.com/audi_q5.jpg",
+        "Q7": "https://example.com/audi_q7.jpg"
+      },
+      "Volkswagen": {
+        "Jetta": "https://example.com/volkswagen_jetta.jpg",
+        "Passat": "https://example.com/volkswagen_passat.jpg",
+        "Tiguan": "https://example.com/volkswagen_tiguan.jpg",
+        "Atlas": "https://example.com/volkswagen_atlas.jpg"
+      },
+      "Nissan": {
+        "Altima": "https://example.com/nissan_altima.jpg",
+        "Sentra": "https://example.com/nissan_sentra.jpg",
+        "Rogue": "https://example.com/nissan_rogue.jpg",
+        "Pathfinder": "https://example.com/nissan_pathfinder.jpg"
+      },
+      "Tesla": {
+        "Model S": "https://example.com/tesla_model_s.jpg",
+        "Model 3": "https://example.com/tesla_model_3.jpg",
+        "Model X": "https://example.com/tesla_model_x.jpg",
+        "Model Y": "https://example.com/tesla_model_y.jpg"
+      }
+    }
+  }
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <title>Step 2</title>
+    <style>
+        .form-background {
+               background-image: url('https://img.freepik.com/premium-photo/car-tires-black-background-top-view-with-copy-space_981948-2688.jpg?w=826'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+               background-size: cover;
+               background-position: center;
+           }
+           .form-radio{
+               accent-color: rgba(255, 0, 0, 0.355);
+   ;
+   
+           }
+     </style>
+</head>
+
+<body class="form-background">
+    <header class="bg-black text-white px-2 flex items-center justify-between">
+        <h1 class="text-xl font-bold py-2">Velocity Auto Supplies</h1>
+    </header>
+    <div class="max-w-md mx-auto py-8 px-4 bg-transparent">
+        <!-- <h1 class="text-2xl font-bold mb-4">Enter Part Details</h1> -->
+        <form id="partForm" class="space-y-4 bg-transparent shadow-lg p-4">
+            <div>
+                <label for="partName" class="block py-1 text-sm font-medium ">Part Name <span class="text-red-500">*</span></label>
+                <input type="text" id="partName" name="partName" required class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none  bg-transparent">
+            </div>
+            <div>
+                <label for="partQuantity" class="block py-1 text-sm font-medium ">Part Quantity <span class="text-red-500">*</span></label>
+                <input type="number" id="partQuantity" name="partQuantity" required class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
+            </div>
+            <div>
+                <label for="partSerialNumber" class="block py-1 text-sm font-medium ">Part Serial Number</label>
+                <input type="text" id="partSerialNumber" name="partSerialNumber" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
+            </div>
+            <div>
+                <label for="carFrameNumber" class="block py-1 text-sm font-medium ">Car Frame Number</label>
+                <input type="text" id="carFrameNumber" name="carFrameNumber" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
+            </div>
+            <div>
+                <label for="partDescription" class="block py-1 text-sm font-medium ">Part Description</label>
+                <textarea id="partDescription" name="partDescription" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent"></textarea>
+            </div>
+            <div>
+                <label for="partImage" class="block py-1 text-sm font-medium ">Part Image</label>
+                <input type="file" id="partImage" name="partImage" class="border rounded w-full mx-auto py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent">
+            </div>
+            <div style="display: flex; justify-content: flex-end;">
+                <button type="submit" class="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mr-2">
+                    Next <i class="fas fa-arrow-right ml-1"></i>
+                </button>
+            </div>
+            
+        </form>
+    </div>
+  
+
+    <script src="step2.js">
+ 
+    </script>
+</body>
+</html>

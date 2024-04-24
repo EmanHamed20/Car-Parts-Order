@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<style>
+   
+.form-background {
+               background-image: url('https://img.freepik.com/premium-photo/car-tires-black-background-top-view-with-copy-space_981948-2688.jpg?w=826'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+               background-size: cover;
+               background-position: center;
+           }
+           .form-radio{
+               accent-color: rgba(255, 0, 0, 0.355);
+   ;
+           }
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+</style>
+<body class="form-background">
+    <header class="bg-black text-white px-2 flex items-center justify-between">
+        <h1 class="text-xl font-bold py-2">Velocity Auto Supplies</h1>
+    </header>
+    <div>
+    <div class="container ">
+        <h1 class="text-red-700 text-xl py-3">Order Confirmation</h1>
+        <p>Your order has been successfully received and is currently under review.</p>
+        <p>Order Number: <span id="orderNumber" class="text-red-700">123456</span></p>
+        <p>Order Status: Under Review</p>
+        <p>Thank you for placing your order.</p>
+    </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve the order number from any source, e.g., from the server or session data
+    const orderNumber = generateOrderNumber(); // Assuming this function generates the order number
+
+    // Display the order number on the page
+    const orderNumberElement = document.getElementById('orderNumber');
+    orderNumberElement.textContent = orderNumber;
+});
+
+function generateOrderNumber() {
+    // You can use a random number, generate a sequential number, or any other method
+    return Math.floor(Math.random() * 1000000); // Here we're assuming we generate a random number between 0 and 999999
+}
+
+    </script>
+</body>
+</html>
