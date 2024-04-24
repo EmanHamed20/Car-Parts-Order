@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (key === "confirmPassword" || key==="partImage") {
                 return;
             }
+           
             
             // Create a container div for each label-input pair
             const inputContainer = document.createElement('div');
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             input.value = stepData[key];
             input.readOnly = true;
             input.classList.add('form-input', 'w-full', 'border', 'rounded', 'py-2', 'px-3','bg-transparent','text-red-800','text-xl');
+           
             
             // Append label and input to the container div
             inputContainer.appendChild(label);
